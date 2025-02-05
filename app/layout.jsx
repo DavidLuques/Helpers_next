@@ -1,6 +1,8 @@
 
 import NavBar from './components/Navbar'
 import {Roboto} from 'next/font/google'
+import   '@/app/globals.css'
+
 const fuenteAqui=Roboto({weight:["400","500","700"],
     styles:["italic","normal"],
     subsets:["latin"]
